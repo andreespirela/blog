@@ -15,10 +15,10 @@ In 2020, I joined the open source community where I developed a framework called
 As a coder, I’m a <a href="https://www.typescriptlang.org/" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">Typescript</a> and <a href="https://www.rust-lang.org/" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">Rust</a> lover.<br>
 As a human, my passion comes down to:
 <ul>
-<li>- Architectural Tasks</li>
-<li>- Distributed Systems</li>
-<li>- Rocket Engineering</li>
-<li>- Economics</li>
+<li>Architectural Tasks</li>
+<li>Distributed Systems</li>
+<li>Rocket Engineering</li>
+<li>Economics</li>
 </ul>
 <br>
 I was born to code,
