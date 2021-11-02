@@ -1,8 +1,9 @@
 [
   {
     "title": "Statement of Purpose",
-    "description": "Not an extraordinary developer, just a person with extraordinary thoughts. Join me and my opinions on technology statements.",
+    "description": "An ordinary developer with extraordinary thoughts. Join me and my opinions on technology statements.",
     "route": "welcome",
-    "createdDate": 1635807330941
+    "createdDate": 1635807330941,
+    "bgUrl": ""
   }
 ]
