@@ -9,6 +9,7 @@ import {HttpClientModule} from "@angular/common/http";
 import {PostsComponent} from "./posts/posts.component";
 import {BlogComponent} from "./blog/blog.component";
 import {MarkdownModule} from "ngx-markdown";
+import {SeoService} from "./services/seo.service";
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import {MarkdownModule} from "ngx-markdown";
     MarkdownModule.forRoot()
   ],
   providers: [
-    PostsService
+    PostsService,
+    SeoService
   ],
   bootstrap: [
     AppComponent

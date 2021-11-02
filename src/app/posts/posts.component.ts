@@ -3,6 +3,7 @@ import {ActivatedRoute, Router} from "@angular/router";
 import {PostMetadata} from "../model";
 import {PostsService} from "../services/posts.service";
 import {Title} from "@angular/platform-browser";
+import {SeoService} from "../services/seo.service";
 
 @Component({
   selector: 'ap-post',
@@ -15,7 +16,9 @@ export class PostsComponent implements OnInit {
   constructor(private route:ActivatedRoute,
               private router: Router,
               private readonly postsService: PostsService,
-              private readonly titleService: Title) {
+              private readonly titleService: Title,
+              private readonly seoService: SeoService) {
+    this.seoService.initializeBasics();
   }
 
   ngOnInit() {
@@ -23,7 +26,9 @@ export class PostsComponent implements OnInit {
         const metadata = await this.postsService.getPostMetadata(params['title']);
         if(metadata) {
           this.metadata = metadata;
-          this.titleService.setTitle(`Andres Pirela - ${this.metadata.title}`)
+          const title = `Andres Pirela - ${this.metadata.title}`;
+          this.titleService.setTitle(title);
+          this.seoService.updateTitleAndDescription(title, metadata.description);
         } else {
           this.router.navigate(['/']);
         }
