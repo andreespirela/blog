@@ -9,6 +9,9 @@
       <div class="my-4 text-gray-500">
         <div class="flex items-center gap-2">{{ metadata.createdDate | date: 'longDate' : 'America/New_York' }}</div>
       </div>
+      <div class="mt-5">
+        <a [routerLink]="'/'" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">Go Back</a>
+      </div>
     </header>
     <article class="my-4 pt-8 border-t border-gray-200 markdown-body">
       <markdown [src]="markdownUrl"></markdown>

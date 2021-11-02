@@ -4,4 +4,5 @@ export interface PostMetadata {
   route: string;
   bgUrl?: string;
   createdDate: Date | number;
+  visible: boolean;
 }

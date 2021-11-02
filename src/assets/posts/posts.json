@@ -4,6 +4,14 @@
     "description": "An ordinary developer with extraordinary thoughts. Join me and my opinions on technology statements.",
     "route": "welcome",
     "createdDate": 1635807330941,
-    "bgUrl": ""
+    "bgUrl": "",
+    "visible": true
+  },
+  {
+    "title": "Who I am",
+    "description": "",
+    "route": "bio",
+    "createdDate": 1635807330941,
+    "visible": false
   }
 ]

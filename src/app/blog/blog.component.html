@@ -1,10 +1,23 @@
 <ng-container>
   <section class="max-w-5xl mt-20 mx-auto min-h-screen">
-    <div class="mx-4 mt-10 mb-10">
+    <div class="mx-4 mt-10 mb-6">
       <h1 class="text-6xl font-extrabold">Andres Pirela</h1>
+      <div class="mt-5">
+        <span>
+          <a href="https://twitter.com/andreestech" target="_blank" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">Twitter</a>
+        </span>
+         -
+        <span>
+          <a href="https://www.linkedin.com/in/andres-pireela" target="_blank" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">LinkedIn</a>
+        </span>
+         -
+        <span>
+          <a [routerLink]="'/blog/bio'" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">Bio</a>
+        </span>
+      </div>
     </div>
     <ng-container *ngIf="posts$">
-      <ng-container *ngFor="let post of (posts$ | async)">
+      <ng-container *ngFor="let post of (posts$ | async)?.filter(onlyVisiblePosts)">
         <div class="py-14 mx-4 sm:grid grid-cols-4 border-t border-gray-200">
           <p class="text-gray-500 mb-4">
             <span>{{ post.createdDate | date: 'longDate' : 'America/New_York' }}</span>

@@ -20,4 +20,8 @@ export class BlogComponent implements OnInit {
   ngOnInit() {
     this.posts$ = this.postsService.posts$;
   }
+
+  onlyVisiblePosts(post: PostMetadata) {
+    return post.visible;
+  }
 }
