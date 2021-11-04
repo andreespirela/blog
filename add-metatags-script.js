@@ -5,7 +5,7 @@ const filePath = `${__dirname}/dist/andres-pirela-blog/index.html`;
 let htmlBody = parse(readFileSync(filePath, 'utf8'));
 
 const description = 'Andres Pirela - Thoughts & Statements About Technology.';
-const image = '/assets/andres-pirela.jpg';
+const image = 'https://www.andrespirela.com/assets/andres-pirela.jpg';
 const title = 'Andres Pirela';
 
 const array = [
@@ -76,6 +76,10 @@ const array = [
   {
     name: 'og:type',
     content: 'website'
+  },
+  {
+    name: 'twitter:image:src',
+    content: image
   }
 ];
 
