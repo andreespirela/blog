@@ -26,4 +26,3 @@ code makes me who I am,
 overcoming greater challenges is just part of it.
 <br>
 <br>
-For a real-time insight on who I am, don't forget to follow me on <a href="https://twitter.com/andreestech" target="_blank" class="text-blue-600 hover:text-blue-500 transition ease-in-out duration-150">Twitter</a>.
