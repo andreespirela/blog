@@ -16,7 +16,7 @@ export class PostsService {
   setPosts(): void {
     this.posts$ = this.httpClient.get<Array<PostMetadata>>('/assets/posts/posts.json').pipe(
       map(item => {
-          return item.sort((a, b) => (a.createdDate as number) - (b.createdDate as number))
+          return item.sort((a, b) => (a.createdDate as number) - (a.createdDate as number))
       })
     )
   }

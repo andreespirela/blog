@@ -1,5 +1,13 @@
 [
   {
+    "title": "Smartweave is Missing Something: Being Hybrid",
+    "description": "With multiple blockchain solutions emerging, Smartweave brings half blockchain-half client smart contracts. Unfortunately, there's still so much work to do.",
+    "route": "smartweave-is-not-hybrid",
+    "createdDate": 1636035080951,
+    "bgUrl": "",
+    "visible": "true"
+  },
+  {
     "title": "Statement of Purpose",
     "description": "An ordinary developer with extraordinary thoughts. Join me and my opinions on technology statements.",
     "route": "welcome",
