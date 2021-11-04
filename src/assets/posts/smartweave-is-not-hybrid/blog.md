@@ -38,4 +38,4 @@ In order for Smartweave to succeed, it needs:
 - A consensus system where the Virtual Machine executes and keeps track and guarantees of the latest states.
 
 
-Until then, real world solutions involving Smartweave will need to come up with their own patches and being aware of the fact that at the end, it isn't a blockchain based solution.
+Until then, real world solutions involving Smartweave will need to come up with their own patches and being aware of the fact that at the end, it is only a blockchain based solution to a certain extend.
