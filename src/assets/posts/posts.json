@@ -1,5 +1,13 @@
 [
   {
+    "title": "Distributed Systems: The Next Highest-Paid Industry",
+    "description": "Analyzing why distributed systems will increase income for developers more than ever before",
+    "route": "why-distributed-systems-will-be-among-the-top-highest-paying-jobs",
+    "createdDate": 1636580888365,
+    "bgUrl": "",
+    "visible": true
+  },
+  {
     "title": "Statement of Purpose",
     "description": "An ordinary developer with extraordinary thoughts. Join me and my opinions on technology statements.",
     "route": "welcome",
